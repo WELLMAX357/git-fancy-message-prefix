@@ -23,12 +23,6 @@ Run following command in your git working directory
 
 ### bash/zsh/fish
 
-**English version**
-
-```bash
-curl https://raw.githubusercontent.com/WELLMAX357/git-fancy-message-prefix/master/prepare-commit-msg.en -o .git/hooks/prepare-commit-msg && chmod +x .git/hooks/prepare-commit-msg
-```
-
 **Japanese version**
 
 ```bash
