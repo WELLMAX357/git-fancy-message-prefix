@@ -26,13 +26,13 @@ Run following command in your git working directory
 **English version**
 
 ```bash
-curl https://raw.githubusercontent.com/negokaz/git-fancy-message-prefix/master/prepare-commit-msg.en -o .git/hooks/prepare-commit-msg && chmod +x .git/hooks/prepare-commit-msg
+curl https://raw.githubusercontent.com/WELLMAX357/git-fancy-message-prefix/master/prepare-commit-msg.en -o .git/hooks/prepare-commit-msg && chmod +x .git/hooks/prepare-commit-msg
 ```
 
 **Japanese version**
 
 ```bash
-curl https://raw.githubusercontent.com/negokaz/git-fancy-message-prefix/master/prepare-commit-msg.ja -o .git/hooks/prepare-commit-msg && chmod +x .git/hooks/prepare-commit-msg
+curl https://raw.githubusercontent.com/WELLMAX357/git-fancy-message-prefix/master/prepare-commit-msg.ja -o .git/hooks/prepare-commit-msg && chmod +x .git/hooks/prepare-commit-msg
 ```
 
 ## Customize

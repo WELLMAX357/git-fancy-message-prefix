@@ -10,15 +10,24 @@ function templates {
 #
 # Full Emoji List: https://unicode.org/emoji/charts/full-emoji-list.html
 cat <<EOF
-feat:     \U2728    新機能追加
-fix:      \U1f41e   バグ修正
-doc:      \U1f4da   ドキュメントのみの変更
-style:    \U1f484   プログラムの動きに影響を与えない変更\n(インデントの調整やフォーマッタにかけた場合など)
-refactor: \U1f528   バグ修正や新機能追加以外のコード修正
-perf:     \U1f680   パフォーマンス改善のためのコード修正
-test:     \U1f6a8   テストの追加や既存テストの修正
-chore:    \U1f477   ビルドプロセスやドキュメント生成のような補助ツールやライブラリの変更
-merge:    \U1f500
+Feature:                \U2728     新機能の実装
+Update:                 \U1F44D    機能の修正
+Remove:                 \U1FD1     削除
+Fix:                    \U1F41B    バグの修正
+Refactor:               \U267B     リファクタリング
+Typo:                   \U270F     タイプミスなどの修正
+Add-logs:               \U1F509    ログの追加
+Remove-logs:            \U1F507    ログの削除
+Document:               \U1F4DA    ドキュメントの変更
+Accessibility:          \U1F3A8    デザインUI/UXの変更
+Improve-performance:    \U1F40E    パフォーマンスの改善
+Improve-security:       \U1F46E    セキュリティ関連の改善
+Tools:                  \U1F527    ツール
+Tests:                  \U1F6A8    テスト
+WIP:                    \U1F6A7    Work In Progress
+Version-tag:            \U1F516    バージョンタグ
+First:                  \U1F389    初めてのコミット
+Merge:                  \U1F500
 EOF
 # "merge:" is a special prefix to create merge commit message.
 }
